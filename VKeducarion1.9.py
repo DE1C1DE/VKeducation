@@ -16,3 +16,4 @@ r=str(r)
 r=r.replace(",","")
 r=r.replace("'","")
 print(r)
+# Опять не засчитывается
