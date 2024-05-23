@@ -1,0 +1,8 @@
+import re
+input_string = input()
+if input_string[0] == "!":
+    input_string = re.sub(r'[!@#%]', '', input_string).upper()
+else:
+    input_string = re.sub(r'[!@#%]', '', input_string).lower()
+output_str = input_string
+print( output_str)
